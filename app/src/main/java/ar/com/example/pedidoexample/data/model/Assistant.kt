@@ -19,3 +19,7 @@ data class Assistant(
 data class ListOfAssistants(
     val result: MutableList<Assistant> = mutableListOf()
 ) : Parcelable
+
+
+
+//nkjbnkjbkbj

@@ -5,6 +5,7 @@ import androidx.room.RoomDatabase
 import ar.com.example.pedidoexample.data.model.Assistant
 
 @Database(entities = [Assistant::class], version = 1)
+
 abstract class AppDatabase : RoomDatabase() {
 
     abstract fun assistantDao():AssistantDao
